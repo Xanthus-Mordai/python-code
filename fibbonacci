@@ -1,0 +1,10 @@
+i = int(input('How far should I go? '))
+numA = 1
+numB = 1
+print(numA)
+print(numB)
+for c in range(i):
+  numC = numA + numB
+  print(numC)
+  numA = numB
+  numB = numC
